@@ -29,36 +29,34 @@ Create a directory named "MyLab" on the desktop.
 
 ## COMMAND AND OUTPUT
 #### mkdir %username%\Desktop\MyLab
-![alt text](<WhatsApp Image 2024-05-01 at 17.44.16_e7a24b01.jpg>)
+![alt text](<Screenshot (524).png>)
 
 Change to the "MyLab" directory and create an empty text file named "MyFile.txt" inside it.
 
 
 ## COMMAND AND OUTPUT
 #### cd %username%\Desktop\MyLab
-![alt text](<WhatsApp Image 2024-05-01 at 17.44.16_078b664c.jpg>)
-![alt text](<WhatsApp Image 2024-05-01 at 17.44.16_c02b2de0.jpg>)
-
+![alt text](<Screenshot (526).png>)
 List the contents of the "MyLab" directory.
 
 
 ## COMMAND AND OUTPUT
 #### dir %username%\Desktop\MyLab
-![alt text](<WhatsApp Image 2024-05-01 at 17.44.16_615d31c5.jpg>)
+![alt text](<Screenshot (527).png>)
 
 Copy "MyFile.txt" to a new folder named "Backup" on the desktop.
 
 ## COMMAND AND OUTPUT
-#### cp %username%\Desktop\Backup1
-![alt text](<WhatsApp Image 2024-05-01 at 17.44.16_6e97fa93.jpg>)
-![alt text](<WhatsApp Image 2024-05-01 at 17.44.16_74c1e5c2.jpg>)
+#### copy %username%\Desktop\Backup1
+![alt text](<Screenshot (528).png>)
+![alt text](<Screenshot (529).png>)
 
 Move the "MyLab" directory to the "Documents" folder.
 
 
 ## COMMAND AND OUTPUT
-#### mv Myfile.txt %userprofile%\Documents
-![alt text](<WhatsApp Image 2024-05-01 at 17.44.16_3e9050a7.jpg>)
+#### move Myfile.txt %userprofile%\Documents
+![alt text](<Screenshot (531).png>)
 
 ## Exercise 2: Advanced Batch Scripting
 Create a batch script named "BackupScript.bat" that creates a backup of files with the ".docx" extension from the "Documents" folder to a new folder named "DocBackup" on the desktop.
@@ -79,9 +77,7 @@ echo Backup and deletion completed successfully!
 ````
 ## OUTPUT
 
-![alt text](<WhatsApp Image 2024-05-01 at 17.43.35_61c3e0af.jpg>)
-
-
+![alt text](<Screenshot (533).png>)
 
 # RESULT:
 The commands/batch files are executed successfully.
