@@ -72,6 +72,11 @@ echo Backup and deletion completed successfully!
 
 ![alt text](<Screenshot (533).png>)
 
+
+
+
+
+
 # RESULT:
 The commands/batch files are executed successfully.
 
